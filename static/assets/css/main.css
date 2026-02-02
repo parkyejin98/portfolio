@@ -1501,7 +1501,7 @@ input[type="text"],
 
 .portfolio-grid figure {
   width: 33.33333%;
-  float: left;
+  float: right;
   padding: 7px;
   position: relative;
   overflow: hidden;

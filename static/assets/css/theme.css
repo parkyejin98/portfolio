@@ -5523,11 +5523,11 @@ video.tt-pci-video {
 
 .tt-pc-pagination-fraction .swiper-pagination-current {
 	position: relative;
-	top: -4px;
+	/* top: -4px; */
 }
 .tt-pc-pagination-fraction .swiper-pagination-total {
 	position: relative;
-	bottom: -4px;
+	/* bottom: -4px; */
 }
 
 /* Portfolio carousel pagination progressbar */

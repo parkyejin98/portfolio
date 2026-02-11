@@ -5173,9 +5173,11 @@ video.tt-pci-video {
 .tt-pci-category {
 	position: relative;
 	display: inline-block;
-	font-size: calc(13px + 0.1vw);
+	font-size: 14px;
 	color: #FFF;
 	line-height: 1.2;
+	background: #0a0a0a;
+	padding: 10px;
 }
 
 @media (max-width: 768px) {
@@ -8163,7 +8165,7 @@ body.is-mobile.tt-sliding-sidebar-open .tt-sliding-sidebar-trigger .tt-ss-icon-c
 		top: -20%;
 		left: 30%;
 		line-height: 1;
-		font-size: clamp(40px, 37vw, 220px);
+		font-size: 200px;
 		font-weight: normal;
 		color: #FFF;
 		opacity: 0.1;

@@ -221,18 +221,15 @@ body {
 .tt-ol-menu-toggle-btn-text,
 .tt-m-menu-toggle-btn-text,
 .tt-ol-menu-list,
-.tt-heading,
-.tt-btn,
+.tt-heading-title,
 .social-buttons,
 .footer-social,
 .tt-ps-nav-pagination,
-.tt-pc-navigation,
 .tt-cc-pagination,
 .pli-counter,
 .ttgr-cat-trigger-wrap,
 .ttgr-cat-list,
 .portfolio-interactive-item,
-.tt-copyright,
 .project-info-list,
 .tt-pn-link,
 .tt-pn-subtitle,
@@ -241,7 +238,6 @@ body {
 .tt-scrolling-text,
 #blog-list.bli-compact .bli-info::before,
 .blog-interactive-item::before {
-	/* font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif; */
     font-family: 'PyeongchangPeace';
 }
 
@@ -679,9 +675,9 @@ body.is-firefox .tt-heading.tt-heading-stroke .tt-heading-title {
 	line-height: 1.3;
 }
 .tt-heading.tt-heading-lg .tt-heading-subtitle {
-	font-size: calc(16px + 0.3vw);
+	font-size: calc(13px + 0.3vw);
 	font-weight: bold;
-	font-weight: 500;
+	font-weight: 300;
 }
 
 /* size xlg */

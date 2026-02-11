@@ -6846,8 +6846,8 @@ body:not(.tt-magic-cursor) .social-buttons > ul > li a:hover {
 }
 
 .tt-accordion.tt-ac-xlg .tt-accordion-heading {
-	padding-top: 25px;
-	padding-bottom: 25px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 .tt-accordion.tt-ac-xlg .tt-ac-head-title {
 	font-size: 24px;

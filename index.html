@@ -1,330 +1,784 @@
 <!DOCTYPE html>
-<html lang="kr" class="no-js">
-  <head>
-    <meta charset="UTF-8" >
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-    <title>박예진 포트폴리오입니다.</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" >
-    <meta name="description" content="박예진 포트폴리오" >
-    <meta name="keywords" content="박예진 포트폴리오" >
-    <meta name="author" content="박예진" >
-    <link rel="shortcut icon" href="/static/assets/img/profile4.png">
-    <link rel="stylesheet" href="/static/assets/css/reset.css" type="text/css">
-    <link rel="stylesheet" href="/static/assets/css/bootstrap-grid.min.css" type="text/css">
-    <link rel="stylesheet" href="/static/assets/css/animations.css" type="text/css">
-    <link rel="stylesheet" href="/static/assets/css/main.css" type="text/css">
-  </head>
+<html lang="kr">
+	<head>
 
-  <body>
+		<!-- Title -->
+		<title>박예진 포트폴리오</title>
 
-    <!-- Loading animation -->
-    <div class="preloader">
-      <div class="preloader-animation">
-        <div class="preloader-spinner">
-        </div>
-      </div>
-    </div>
-    <!-- /Loading animation -->
+		<!-- Meta -->
+		<meta charset="utf-8">
+		<meta name="description" content="Download Tank - Creative Portfolio Showcase HTML Website Template that comes with rich features and well-commented code. Made by Themetorium.">
+		<meta name="author" content="themetorium.net">
 
-    <div class="page">
-      <div class="page-content">
+		<!-- Mobile Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-          <header id="site_header" class="header mobile-menu-hide">
-            <div class="header-content">
-              <div class="header-photo">
-                <img src="/static/assets/img/profile4.png" alt="박예진미모티콘">
-              </div>
-              <div class="header-titles">
-                <h2>박예진</h2>
-                <h4>Portfolio</h4>
-              </div>
-            </div>
+		<!-- Favicon (http://www.favicon-generator.org/) -->
+		<link rel="shortcut icon" href="/static/assets/img/profile4.png" type="image/x-icon">
+		<link rel="icon" href="/static/assets/img/profile4.png" type="image/x-icon">
 
-            <ul class="main-menu">
-              <li>
-                <a href="#publishing" class="nav-anim">
-                  <span class="menu-icon lnr lnr-briefcase"></span>
-                  <span class="link-text">Publishing</span>
-                </a>
-              </li>
-              <li>
-                <a href="#contents" class="nav-anim">
-                  <span class="menu-icon lnr lnr-book"></span>
-                  <span class="link-text">Contents</span>
-                </a>
-              </li>
-            </ul>
+		<!-- Google Analytics - Global site tag (gtag.js) -->
+		<!-- Paste your Google Anaytics code here. -->
 
-            <div class="copyrights">ⓒ 2026. parkyejin All rights reserved.</div>
-          </header>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css" />
 
-          <!-- Mobile Navigation -->
-          <div class="menu-toggle">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-          <!-- End Mobile Navigation -->
+		<!-- Libs and Plugins CSS -->
+		<link rel="stylesheet" href="/static/assets/vendor/normalize/normalize.min.css"> <!-- Normalize CSS (https://necolas.github.io/normalize.css/) -->
+		<link rel="stylesheet" href="/static/assets/vendor/fontawesome/css/fontawesome-all.min.css"> <!-- Font Icons CSS (https://fontawesome.com) Free version! -->
+		<link rel="stylesheet" href="/static/assets/vendor/swiper/css/swiper-bundle.min.css"> <!-- Swiper CSS (https://swiperjs.com/) -->
+		<link rel="stylesheet" href="/static/assets/vendor/lightgallery/css/lightgallery.min.css"> <!-- lightGallery CSS (http://sachinchoolur.github.io/lightGallery) -->
 
-          <div class="content-area">
-            <div class="animated-sections">
+		<!-- Template master CSS -->
+		<link rel="stylesheet" href="/static/assets/css/helper.css">
+		<link rel="stylesheet" href="/static/assets/css/theme.css">
 
-              <!-- Publishing -->
-              <section data-id="publishing" class="animated-section">
-                <div class="section-content">
-                  <div class="page-title">
-                    <h2>Publishing</h2>
-                  </div>
-                  <div class="row">
-                    <div class="col-xs-12 col-sm-12">
-                      <div class="blog-masonry two-columns clearfix">
-                        
-                        <div class="item">
-                          <div class="blog-card">
-                            <div class="media-block">
-                              <a href="https://www.kbmaster.kr/" target="_blank">
-                                <img src="/static/assets/img/portfolio/kbeautymaster.png" class="size-blog-masonry-image-two-c" alt="케이뷰티마스터">
-                                <div class="mask"></div>
-                              </a>
-                            </div>
-                            <div class="post-info">
-                              <a href="https://www.kbmaster.kr/" target="_blank">
-                                <h4 class="blog-item-title">케이뷰티마스터 홈페이지</h4>
-                              </a>
-                              <!-- <a href="javascript:;" class="post-toggle" onclick="reviewActive($(this))"><img src="/static/assets/img/portfolio/arrow.png"></a> -->
-                              <ul class="post-toggle-content">
-                                <li><span>프로젝트명</span>K뷰티마스터 홈페이지 신규제작</li>
-                                <li><span>연계/소속회사</span>용감한 컴퍼니</li>
-                                <li><span>수행 기간</span>23.12 ~ 24.03 (약 4달 소요)</li>
-                                <li><span>사용 기술</span>HTML, CSS, SCSS, jQuery, JavaScript, PHP기반</li>
-                                <li><span>팀 구성</span>퍼블리셔 팀장1,팀원1(본인),디자이너1,백엔드개발자1,기획자1</li>
-                                <li><span>기여도</span>40%</li>
-                                <li><span>주요 역할</span> BEST.가입동의.패스,스토어,리뷰 페이지 등 진행(PC,MOBILE)</li>
-                                <!-- <li><span>업무 성과</span>기존 사이트 이파마스터 기반으로 UI 진행<br>SCSS를 도입</li> -->
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
+	</head>
 
-                        <div class="item">
-                          <div class="blog-card">
-                            <div class="media-block">
-                              <a href="https://www.iipamaster.com/" target="_blank">
-                                <img src="/static/assets/img/portfolio/iipamaster.png" class="size-blog-masonry-image-two-c" alt="이파마스터">
-                                <div class="mask"></div>
-                              </a>
-                            </div>
-                            <div class="post-info">
-                              <a href="https://www.iipamaster.com/" target="_blank">
-                                <h4 class="blog-item-title">이파마스터 홈페이지</h4>
-                              </a>
-                              <ul class="post-toggle-content">
-                                <li><span>프로젝트명</span>이파마스터 홈페이지 유지보수</li>
-                                <li><span>연계/소속회사</span>용감한 컴퍼니</li>
-                                <li><span>수행 기간</span>항시</li>
-                                <li><span>사용 기술</span>HTML, CSS, jQuery, JavaScript, PHP기반</li>
-                                <li><span>팀 구성</span>퍼블리셔(본인),디자이너1,백엔드개발자1,기획자1</li>
-                                <li><span>기여도</span>담당 프로모션 페이지의 경우 100% 혼자 진행</li>
-                                <li><span>주요 역할</span>프로모션 페이지 제작,유지보수</li>
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
+	<body id="body" class="tt-transition tt-boxed tt-smooth-scroll tt-magic-cursor">
 
-                        <div class="item">
-                          <div class="blog-card">
-                            <div class="media-block">
-                              <a href="https://www.modoogong.com/" target="_blank">
-                                <img src="/static/assets/img/portfolio/modoogong.png" class="size-blog-masonry-image-two-c" alt="모두공">
-                                <div class="mask"></div>
-                              </a>
-                            </div>
-                            <div class="post-info">
-                              <a href="https://www.modoogong.com/" target="_blank">
-                                <h4 class="blog-item-title">모두공 홈페이지</h4>
-                              </a>
-                              <ul class="post-toggle-content">
-                                <li><span>프로젝트명</span>모두공 홈페이지 유지보수</li>
-                                <li><span>연계/소속회사</span>용감한 컴퍼니</li>
-                                <li><span>수행 기간</span>항시</li>
-                                <li><span>사용 기술</span>HTML, CSS, jQuery, JavaScript, PHP기반</li>
-                                <li><span>팀 구성</span>퍼블리셔(본인),디자이너1,백엔드개발자1,기획자1</li>
-                                <li><span>기여도</span>담당 프로모션 페이지의 경우 100% 혼자 진행</li>
-                                <li><span>주요 역할</span>프로모션 페이지 제작,유지보수</li>
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
+		<main id="body-inner">
 
-                        <div class="item">
-                          <div class="blog-card">
-                            <div class="media-block">
-                              <a href="https://www.modoofire.com/" target="_blank">
-                                <img src="/static/assets/img/portfolio/modoofire.png" class="size-blog-masonry-image-two-c" alt="모두소">
-                                <div class="mask"></div>
-                              </a>
-                            </div>
-                            <div class="post-info">
-                              <a href="https://www.modoofire.com/" target="_blank">
-                                <h4 class="blog-item-title">모두소 홈페이지</h4>
-                              </a>
-                              <ul class="post-toggle-content">
-                                <li><span>프로젝트명</span>모두소 홈페이지 유지보수</li>
-                                <li><span>연계/소속회사</span>용감한 컴퍼니</li>
-                                <li><span>수행 기간</span>항시</li>
-                                <li><span>사용 기술</span>HTML, CSS, jQuery, JavaScript, PHP기반</li>
-                                <li><span>팀 구성</span>퍼블리셔(본인),디자이너1,백엔드개발자1,기획자1</li>
-                                <li><span>기여도</span>담당 프로모션 페이지의 경우 100% 혼자 진행</li>
-                                <li><span>주요 역할</span>프로모션 페이지 제작,유지보수</li>
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
+			<div id="page-transition">
+				<div class="ptr-overlay"></div>
+				<div class="ptr-preloader">
+					<div class="ptr-prel-content">
+						<img src="/static/assets/img/profile4.png" class="ptr-prel-image tt-logo-light" alt="Logo">
+					</div> 
+				</div> 
+			</div>
 
-                        <div class="item">
-                          <div class="blog-card">
-                            <div class="media-block">
-                              <a href="https://www.modoocop.com/" target="_blank">
-                                <img src="/static/assets/img/portfolio/modoocop.png" class="size-blog-masonry-image-two-c" alt="모두경">
-                                <div class="mask"></div>
-                              </a>
-                            </div>
-                            <div class="post-info">
-                              <a href="https://www.modoocop.com/" target="_blank">
-                                <h4 class="blog-item-title">모두경 홈페이지</h4>
-                              </a>
-                              <ul class="post-toggle-content">
-                                <li><span>프로젝트명</span>모두경 홈페이지 유지보수</li>
-                                <li><span>연계/소속회사</span>용감한 컴퍼니</li>
-                                <li><span>수행 기간</span>항시</li>
-                                <li><span>사용 기술</span>HTML, CSS, jQuery, JavaScript, PHP기반</li>
-                                <li><span>팀 구성</span>퍼블리셔(본인),디자이너1,백엔드개발자1,기획자1</li>
-                                <li><span>기여도</span>담당 프로모션 페이지의 경우 100% 혼자 진행</li>
-                                <li><span>주요 역할</span>프로모션 페이지 제작,유지보수</li>
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
+			<!-- 커서 -->
+			<div id="magic-cursor">
+				<div id="ball"></div>
+			</div>
+			<!-- //커서 -->
 
-                        <div class="item">
-                          <div class="blog-card">
-                            <div class="media-block">
-                              <a href="https://raemongraein.co.kr/" target="_blank">
-                                <img src="/static/assets/img/portfolio/래몽래인.png" class="size-blog-masonry-image-two-c" alt="래몽래인">
-                                <div class="mask"></div>
-                              </a>
-                            </div>
-                            <div class="post-info">
-                              <a href="https://raemongraein.co.kr/" target="_blank">
-                                <h4 class="blog-item-title">래몽래인 홈페이지</h4>
-                              </a>
-                              <ul class="post-toggle-content">
-                                <li><span>프로젝트명</span>래몽래인 홈페이지 제작</li>
-                                <li><span>연계/소속회사</span>(주)래몽래인/엠알오커머스</li>
-                                <li><span>수행 기간</span>21.08.01~21.08.18 (약 2~3주)</li>
-                                <li><span>사용 기술</span>HTML, CSS, jQuery, JavaScript, Python기반</li>
-                                <li><span>팀 구성</span>퍼블리셔(본인),백엔드개발자1</li>
-                                <li><span>기여도</span>기획,디자인,퍼블 100%</li>
-                                <li><span>주요 역할</span>화면 설계 및 서비스기획 VIEW단 작업<br>
-                                  모바일버전 크로스 브라우저 구현<br>
-                                  상세페이지 이미지 제작<br>
-                                  메인페이지 동영상 제작</li>
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
+			<div class="bg-noise"></div>
 
-                      </div>
-                    </div>
-                  
-                  </div>
-                </div>
-              </section>
-              <!-- End Publishing -->
+			<!-- 스크롤 컨테이너 -->
+			<div id="scroll-container"> 
+				
+				<!-- 헤더 -->
+				<header id="tt-header" class="tt-header-fixed">
+					<div class="tt-header-inner">
 
-              <!-- Contents Subpage -->
-              <section data-id="contents" class="animated-section">
-                <div class="section-content">
-                  <div class="page-title">
-                    <h2>Contents</h2>
-                  </div>
+						<div class="tt-header-col">
 
-                  <div class="row">
-                    <div class="col-xs-12 col-sm-12">
+							<div class="tt-logo"> 
+								<a href="index.html">
+									<img src="/static/assets/img/profile4.png" class="tt-logo-light magnetic-item" alt="Logo"> 
+									<img src="/static/assets/img/profile4.png" class="tt-logo-dark magnetic-item" alt="Logo">
+								</a>
+							</div>
+						</div>
 
-                      <div class="portfolio-content">
-                        
-                        <div class="portfolio-grid two-columns">
-                          
-                          <figure class="item">
-                            <div class="portfolio-item-img">
-                              <img src="/static/assets/img/design/퇴근후먹태.png" alt="퇴근후먹태 상세페이지" title="" >
-                              <a class="lightbox" href="/static/assets/img/design/퇴근후먹태_full.png" target="_blank" ></a>
-                            </div>
+					</div>
+				</header>
+				<!-- //헤더 -->
 
-                            <i class="far fa-image"></i>
-                            <h4 class="name">퇴근후먹태 상세페이지</h4>
-                            <span class="category">Images</span>
-                          </figure>
+				<!-- 콘텐츠 웹 -->
+				<div id="content-wrap">
 
-                          <figure class="item">
-                            <div class="portfolio-item-img">
-                              <img src="/static/assets/img/design/디블럭.png" alt="디블럭 상세페이지" title="" >
-                              <a class="lightbox" href="/static/assets/img/design/디블럭_full.png" target="_blank"></a>
-                            </div>
+					<!-- 페이지 헤더 -->
+					<div id="page-header" class="ph-full ph-cap-sm ph-image-cropped ph-image-cover-2 ph-content-parallax">
+						<div class="page-header-inner tt-wrap">
 
-                            <i class="far fa-image"></i>
-                            <h4 class="name">디블럭 상세페이지</h4>
-                            <span class="category">Images</span>
-                          </figure>
+						<div class="tt-section padding-top-xlg-150 padding-bottom-xlg-150">
+							<div class="tt-section-inner">
 
-                          <figure class="item">
-                            <div class="portfolio-item-img">
-                              <img src="/static/assets/img/design/케이돌봄2.png" alt="케이돌봄 영상" title="" >
-                              <a href="/static/assets/img/design/케이돌봄2.mp4" class="lightbox mfp-iframe" target="_blank"></a>
-                            </div>
+								<div class="tt-scrolling-text scr-text-stroke font-italic" data-scroll-speed="15">
+									<div class="tt-scrolling-text-inner text-dark-3" data-text="Park yejin Portfolio">
+										Park yejin Portfolio
+									</div>
+								</div>
 
-                            <i class="fas fa-video"></i>
-                            <h4 class="name">K-돌봄 소개영상</h4>
-                            <span class="category">Videos</span>
-                          </figure>
+								<div class="tt-scrolling-text scr-text-stroke scr-text-reverse font-italic" data-scroll-speed="15">
+									<div class="tt-scrolling-text-inner text-dark-3" data-text="Park yejin Portfolio">
+										Park yejin Portfolio
+									</div>
+								</div>
 
-                          <figure class="item">
-                            <div class="portfolio-item-img">
-                              <img src="/static/assets/img/design/모아요.png" alt="모아요 영상" title="" >
-                              <a href="/static/assets/img/design/모아요.mp4" class="lightbox mfp-iframe" target="_blank"></a>
-                            </div>
+							</div> 
+						</div>
+						
+						</div> 
 
-                            <i class="fas fa-video"></i>
-                            <h4 class="name">모아요 소개영상</h4>
-                            <span class="category">Videos</span>
-                          </figure>
+						<a href="#page-content" class="scroll-down-circle" data-offset="30">
+							<div class="sdc-inner ph-appear">
+								<div class="sdc-icon"><i class="fas fa-chevron-down"></i></div>
+								<svg viewBox="0 0 500 500">
+									<defs>
+										<path d="M50,250c0-110.5,89.5-200,200-200s200,89.5,200,200s-89.5,200-200,200S50,360.5,50,250" id="textcircle"></path>
+									</defs>
+									<text dy="30">
+										<textPath xlink:href="#textcircle">Scroll down - Scroll down -</textPath>
+									</text>
+								</svg>
+							</div>
+						</a>
+						
+					</div>
+					<!-- //페이지 헤더 -->
 
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+					<!-- 페이지 콘텐츠 -->
+					<div id="page-content">
+								
+						<!-- 퍼블리싱 -->
+						<div class="tt-section no-padding-top">
+							<div class="tt-section-inner">
+								<div class="tt-heading tt-heading-lg tt-heading-center anim-fadeinup">
+									<h3 class="tt-heading-subtitle text-gray">홈페이지,관리자페이지,WebApp</h3>
+									<h2 class="tt-heading-title">퍼블리싱</h2>
+								</div>
 
-              </section>
-              <!-- End Design -->
+								<div class="tt-portfolio-carousel pci-hover pci-caption-stroke cursor-drag-mouse-down pc-scale-down" data-simulate-touch="true" data-mousewheel="true" data-keyboard="true" data-grab-cursor="true" data-pagination-type="fraction">
 
-            </div>
-          </div>
+									<div class="swiper-container">
+										<div class="swiper-wrapper">
+											<div class="swiper-slide">
 
-      </div>
-    </div>
-    <script>
-    //toggle
-    function reviewActive(ths) {
-      ths.toggleClass('active');
-      ths.next().toggleClass('active');
-    }
-    </script>
-    <script src="/static/assets/js/jquery.min.js"></script>
-    <script src="/static/assets/js/modernizr.custom.js"></script>
-    <script src="/static/assets/js/animating.js"></script>
-    <script src="/static/assets/js/imagesloaded.pkgd.min.js"></script>
-    <script src="/static/assets/js/main.js"></script>
-  </body>
+												<a href="https://www.kbmaster.kr/" target="_blank" class="tt-portfolio-carousel-item" data-cursor="View">
+
+													<figure class="tt-pci-image-wrap cover-opacity-2">
+														<img class="tt-pci-image swiper-lazy" src="/static/assets/img/portfolio/kbeautymaster.png" data-src="/static/assets/img/portfolio/kbeautymaster.png" alt="Image">
+													</figure>
+
+													<div class="tt-pci-caption-front">
+														<div class="tt-pci-caption">
+															<div class="tt-pci-caption-inner">
+																<h2 class="tt-pci-title">케이뷰티마스터</h2>
+																<div class="tt-pci-categories">
+																	<div class="tt-pci-category">  
+																		<ul class="publ_list">
+																			<li><span>프로젝트명</span>K뷰티마스터 홈페이지 신규제작</li>
+																			<li><span>연계/소속회사</span>용감한 컴퍼니</li>
+																			<li><span>수행 기간</span>23.12 ~ 24.03 (약 4달 소요)</li>
+																			<li><span>사용 기술</span>HTML, CSS, SCSS, jQuery, JavaScript, PHP기반</li>
+																			<li><span>팀 구성</span>퍼블리셔 팀장1,팀원1(본인),디자이너1,백엔드개발자1,기획자1</li>
+																			<li><span>기여도</span>40%</li>
+																			<li><span>주요 역할</span> BEST.가입동의.패스,스토어,리뷰 페이지 등 진행(PC,MOBILE)</li>
+																		</ul>
+																	</div>
+																</div> 
+															</div> 
+														</div> 
+													</div>
+
+													<div class="tt-pci-caption tt-pci-caption-back">
+														<div class="tt-pci-caption-inner">
+																<h2 class="tt-pci-title">케이뷰티마스터</h2> 
+															<div class="tt-pci-categories">
+																<div class="tt-pci-category">
+																	<ul>
+																		<li><span>프로젝트명</span>K뷰티마스터 홈페이지 신규제작</li>
+																		<li><span>연계/소속회사</span>용감한 컴퍼니</li>
+																		<li><span>수행 기간</span>23.12 ~ 24.03 (약 4달 소요)</li>
+																		<li><span>사용 기술</span>HTML, CSS, SCSS, jQuery, JavaScript, PHP기반</li>
+																		<li><span>팀 구성</span>퍼블리셔 팀장1,팀원1(본인),디자이너1,백엔드개발자1,기획자1</li>
+																		<li><span>기여도</span>40%</li>
+																		<li><span>주요 역할</span> BEST.가입동의.패스,스토어,리뷰 페이지 등 진행(PC,MOBILE)</li>
+																	</ul>
+																</div>
+															</div> 
+														</div>
+													</div> 
+												</a>
+
+											</div> 
+
+											<div class="swiper-slide">
+												<a href="https://www.iipamaster.com/" target="_blank" class="tt-portfolio-carousel-item" data-cursor="View">
+
+													<figure class="tt-pci-image-wrap cover-opacity-2">
+														<img class="tt-pci-image swiper-lazy" src="/static/assets/img/portfolio/iipamaster.png" data-src="/static/assets/img/portfolio/iipamaster.png" alt="Image">
+													</figure>
+
+													<div class="tt-pci-caption-front">
+														<div class="tt-pci-caption">
+															<div class="tt-pci-caption-inner">
+																<h2 class="tt-pci-title">이파마스터</h2> 
+																<div class="tt-pci-categories">
+																	<div class="tt-pci-category">
+																		<ul>
+																			<li><span>프로젝트명</span>이파마스터 홈페이지 유지보수</li>
+																			<li><span>연계/소속회사</span>용감한 컴퍼니</li>
+																			<li><span>수행 기간</span>항시</li>
+																			<li><span>사용 기술</span>HTML, CSS, jQuery, JavaScript, PHP기반</li>
+																			<li><span>팀 구성</span>퍼블리셔(본인),디자이너1,백엔드개발자1,기획자1</li>
+																			<li><span>기여도</span>담당 프로모션 페이지의 경우 100% 혼자 진행</li>
+																			<li><span>주요 역할</span>프로모션 페이지 제작,유지보수</li>
+																		</ul>
+																	</div>
+																</div> 
+															</div>
+														</div>
+													</div>
+
+													<div class="tt-pci-caption tt-pci-caption-back">
+														<div class="tt-pci-caption-inner">
+															<h2 class="tt-pci-title">이파마스터</h2> 
+															<div class="tt-pci-categories">
+																<div class="tt-pci-category">
+																	<ul>
+																		<li><span>프로젝트명</span>이파마스터 홈페이지 유지보수</li>
+																		<li><span>연계/소속회사</span>용감한 컴퍼니</li>
+																		<li><span>수행 기간</span>항시</li>
+																		<li><span>사용 기술</span>HTML, CSS, jQuery, JavaScript, PHP기반</li>
+																		<li><span>팀 구성</span>퍼블리셔(본인),디자이너1,백엔드개발자1,기획자1</li>
+																		<li><span>기여도</span>담당 프로모션 페이지의 경우 100% 혼자 진행</li>
+																		<li><span>주요 역할</span>프로모션 페이지 제작,유지보수</li>
+																	</ul>
+																</div>
+															</div>
+														</div>
+													</div> 
+												</a>
+
+											</div>
+
+											<div class="swiper-slide">
+
+												<a href="https://www.modoogong.com/" target="_blank" class="tt-portfolio-carousel-item" data-cursor="View">
+
+													<figure class="tt-pci-image-wrap cover-opacity-2">
+														<img class="tt-pci-image swiper-lazy" src="/static/assets/img/portfolio/modoogong.png" data-src="/static/assets/img/portfolio/modoogong.png" alt="Image">
+													</figure>
+													<div class="tt-pci-caption-front">
+														<div class="tt-pci-caption">
+															<div class="tt-pci-caption-inner">
+																<h2 class="tt-pci-title">모두공</h2> 
+																<div class="tt-pci-categories">
+																	<div class="tt-pci-category">
+																		<ul>
+																			<li><span>프로젝트명</span>모두공 홈페이지 유지보수</li>
+																			<li><span>연계/소속회사</span>용감한 컴퍼니</li>
+																			<li><span>수행 기간</span>항시</li>
+																			<li><span>사용 기술</span>HTML, CSS, jQuery, JavaScript, PHP기반</li>
+																			<li><span>팀 구성</span>퍼블리셔(본인),디자이너1,백엔드개발자1,기획자1</li>
+																			<li><span>기여도</span>담당 프로모션 페이지의 경우 100% 혼자 진행</li>
+																			<li><span>주요 역할</span>프로모션 페이지 제작,유지보수</li>
+																		</ul>
+																	</div>
+																</div> 
+															</div> 
+														</div>
+													</div>
+
+													<div class="tt-pci-caption tt-pci-caption-back">
+														<div class="tt-pci-caption-inner">
+															<h2 class="tt-pci-title">모두공</h2>
+															<div class="tt-pci-categories">
+																<div class="tt-pci-category">
+																	<ul>
+																		<li><span>프로젝트명</span>모두공 홈페이지 유지보수</li>
+																		<li><span>연계/소속회사</span>용감한 컴퍼니</li>
+																		<li><span>수행 기간</span>항시</li>
+																		<li><span>사용 기술</span>HTML, CSS, jQuery, JavaScript, PHP기반</li>
+																		<li><span>팀 구성</span>퍼블리셔(본인),디자이너1,백엔드개발자1,기획자1</li>
+																		<li><span>기여도</span>담당 프로모션 페이지의 경우 100% 혼자 진행</li>
+																		<li><span>주요 역할</span>프로모션 페이지 제작,유지보수</li>
+																	</ul>
+																</div>
+															</div>
+														</div>
+													</div>
+												</a>
+
+											</div> 
+
+											<div class="swiper-slide">
+
+												<a href="https://www.modoofire.com/" target="_blank" class="tt-portfolio-carousel-item" data-cursor="View">
+
+													<figure class="tt-pci-image-wrap cover-opacity-2">
+														<img class="tt-pci-image swiper-lazy" src="/static/assets/img/portfolio/modoofire.png" data-src="/static/assets/img/portfolio/modoofire.png" alt="Image">
+													</figure>
+
+													<div class="tt-pci-caption-front">
+														<div class="tt-pci-caption">
+															<div class="tt-pci-caption-inner">
+																<h2 class="tt-pci-title">모두소</h2> 
+																<div class="tt-pci-categories">
+																	<div class="tt-pci-category">
+																		<ul>
+																			<li><span>프로젝트명</span>모두소 홈페이지 유지보수</li>
+																			<li><span>연계/소속회사</span>용감한 컴퍼니</li>
+																			<li><span>수행 기간</span>항시</li>
+																			<li><span>사용 기술</span>HTML, CSS, jQuery, JavaScript, PHP기반</li>
+																			<li><span>팀 구성</span>퍼블리셔(본인),디자이너1,백엔드개발자1,기획자1</li>
+																			<li><span>기여도</span>담당 프로모션 페이지의 경우 100% 혼자 진행</li>
+																			<li><span>주요 역할</span>프로모션 페이지 제작,유지보수</li>
+																		</ul>
+																	</div>
+																</div> 
+															</div> 
+														</div> 
+													</div>
+
+													<div class="tt-pci-caption tt-pci-caption-back">
+														<div class="tt-pci-caption-inner">
+															<h2 class="tt-pci-title">모두소</h2> 
+															<div class="tt-pci-categories">
+																<div class="tt-pci-category">
+																	<ul>
+																		<li><span>프로젝트명</span>모두소 홈페이지 유지보수</li>
+																		<li><span>연계/소속회사</span>용감한 컴퍼니</li>
+																		<li><span>수행 기간</span>항시</li>
+																		<li><span>사용 기술</span>HTML, CSS, jQuery, JavaScript, PHP기반</li>
+																		<li><span>팀 구성</span>퍼블리셔(본인),디자이너1,백엔드개발자1,기획자1</li>
+																		<li><span>기여도</span>담당 프로모션 페이지의 경우 100% 혼자 진행</li>
+																		<li><span>주요 역할</span>프로모션 페이지 제작,유지보수</li>
+																	</ul>
+																</div>
+															</div> 
+														</div>
+													</div> 
+												</a>
+
+											</div>
+
+
+											<div class="swiper-slide">
+
+												<a href="https://www.modoocop.com/" target="_blank" class="tt-portfolio-carousel-item" data-cursor="View">
+
+													<figure class="tt-pci-image-wrap cover-opacity-2">
+														<img class="tt-pci-image swiper-lazy" src="/static/assets/img/portfolio/modoocop.png" data-src="/static/assets/img/portfolio/modoocop.png" alt="Image">
+													</figure> 
+													<div class="tt-pci-caption-front">
+														<div class="tt-pci-caption">
+															<div class="tt-pci-caption-inner">
+																<h2 class="tt-pci-title">모두경</h2>
+																<div class="tt-pci-categories">
+																	<div class="tt-pci-category">
+																		<ul>
+																			<li><span>프로젝트명</span>모두경 홈페이지 유지보수</li>
+																			<li><span>연계/소속회사</span>용감한 컴퍼니</li>
+																			<li><span>수행 기간</span>항시</li>
+																			<li><span>사용 기술</span>HTML, CSS, jQuery, JavaScript, PHP기반</li>
+																			<li><span>팀 구성</span>퍼블리셔(본인),디자이너1,백엔드개발자1,기획자1</li>
+																			<li><span>기여도</span>담당 프로모션 페이지의 경우 100% 혼자 진행</li>
+																			<li><span>주요 역할</span>프로모션 페이지 제작,유지보수</li>
+																		</ul>
+																	</div>
+																</div> 
+															</div> 
+														</div>
+													</div>
+
+													<div class="tt-pci-caption tt-pci-caption-back">
+														<div class="tt-pci-caption-inner">
+															<h2 class="tt-pci-title">모두경</h2>
+															<div class="tt-pci-categories">
+																<div class="tt-pci-category">
+																	<ul>
+																		<li><span>프로젝트명</span>모두경 홈페이지 유지보수</li>
+																		<li><span>연계/소속회사</span>용감한 컴퍼니</li>
+																		<li><span>수행 기간</span>항시</li>
+																		<li><span>사용 기술</span>HTML, CSS, jQuery, JavaScript, PHP기반</li>
+																		<li><span>팀 구성</span>퍼블리셔(본인),디자이너1,백엔드개발자1,기획자1</li>
+																		<li><span>기여도</span>담당 프로모션 페이지의 경우 100% 혼자 진행</li>
+																		<li><span>주요 역할</span>프로모션 페이지 제작,유지보수</li>
+																	</ul>
+																</div>
+															</div> 
+														</div> 
+													</div>
+												</a>
+
+											</div>
+
+
+											<div class="swiper-slide">
+
+												<a href="https://raemongraein.co.kr/" target="_blank" class="tt-portfolio-carousel-item" data-cursor="View">
+
+													<figure class="tt-pci-image-wrap cover-opacity-2">
+														<img class="tt-pci-image swiper-lazy" src="/static/assets/img/portfolio/래몽래인.png" data-src="/static/assets/img/portfolio/래몽래인.png" alt="Image">
+													</figure> 
+
+														<div class="tt-pci-caption-front">
+														<div class="tt-pci-caption">
+															<div class="tt-pci-caption-inner">
+																<h2 class="tt-pci-title">래몽래인</h2> 
+																<div class="tt-pci-categories">
+																	<div class="tt-pci-category">
+																		<ul>
+																			<li><span>프로젝트명</span>래몽래인 홈페이지 제작</li>
+																			<li><span>연계/소속회사</span>(주)래몽래인/엠알오커머스</li>
+																			<li><span>수행 기간</span>21.08.01~21.08.18 (약 2~3주)</li>
+																			<li><span>사용 기술</span>HTML, CSS, jQuery, JavaScript, Python기반</li>
+																			<li><span>팀 구성</span>퍼블리셔(본인),백엔드개발자1</li>
+																			<li><span>기여도</span>기획,디자인,퍼블 100%</li>
+																			<li><span>주요 역할</span>화면 설계 및 서비스기획 VIEW단 작업<br>
+																				모바일버전 크로스 브라우저 구현<br>
+																				상세페이지 이미지 제작<br>
+																				메인페이지 동영상 제작</li>
+																		</ul>
+																	</div>
+																</div> 
+															</div>
+														</div> 
+													</div>
+
+													<div class="tt-pci-caption tt-pci-caption-back">
+														<div class="tt-pci-caption-inner">
+															<h2 class="tt-pci-title">래몽래인</h2> 
+															<div class="tt-pci-categories">
+																<div class="tt-pci-category">
+																	<ul>
+																		<li><span>프로젝트명</span>래몽래인 홈페이지 제작</li>
+																		<li><span>연계/소속회사</span>(주)래몽래인/엠알오커머스</li>
+																		<li><span>수행 기간</span>21.08.01~21.08.18 (약 2~3주)</li>
+																		<li><span>사용 기술</span>HTML, CSS, jQuery, JavaScript, Python기반</li>
+																		<li><span>팀 구성</span>퍼블리셔(본인),백엔드개발자1</li>
+																		<li><span>기여도</span>기획,디자인,퍼블 100%</li>
+																		<li><span>주요 역할</span>화면 설계 및 서비스기획 VIEW단 작업<br>
+																			모바일버전 크로스 브라우저 구현<br>
+																			상세페이지 이미지 제작<br>
+																			메인페이지 동영상 제작</li>
+																	</ul>
+																</div>
+															</div> 
+														</div>
+													</div>
+												</a>
+
+											</div>
+										</div>
+									</div>
+
+									<!--  네비게이션 -->
+									<div class="tt-pc-navigation tt-swiper-nav">
+										<div class="tt-pc-nav-prev">
+											<div class="tt-pc-arrow tt-pc-arrow-prev magnetic-item"></div>
+										</div>
+										<div class="tt-pc-nav-next">
+											<div class="tt-pc-arrow tt-pc-arrow-next magnetic-item"></div>
+										</div>
+										<div class="tt-pc-pagination"></div>
+									</div>
+									<!-- //네비게이션 -->
+
+								</div>
+							</div>
+						</div>
+						<!-- //퍼블리싱 -->
+
+						<!-- 디자인 -->
+						<div class="tt-section">
+							<div class="tt-section-inner">
+
+								<div class="tt-heading tt-heading-lg tt-heading-center margin-bottom-5-p anim-fadeinup">
+									<h3 class="tt-heading-subtitle text-gray">상세페이지, 동영상</h3>
+									<h2 class="tt-heading-title">디자인</h2>
+								</div>
+
+								<div id="portfolio-grid" class="pgi-cap-inside pgi-hover">
+
+									<div class="tt-grid ttgr-layout-creative-2 ttgr-not-cropped ttgr-gap-4 tt-blog-post">
+
+										<div class="tt-grid-items-wrap isotope-items-wrap tt-blog-post-content">
+
+											<div class="tt-grid-item isotope-item">
+												<div class="ttgr-item-inner">
+
+													<div class="portfolio-grid-item">
+
+														<a href="/static/assets/img/design/모아요.mp4" target="_blank" class="pgi-image-wrap" data-cursor="View">
+															<div class="pgi-image-holder cover-opacity-2">
+																<div class="pgi-image-inner anim-zoomin">
+																	<figure class="pgi-video-wrap ttgr-height">
+																		<video class="pgi-video" loop muted preload="metadata" poster="/static/assets/img/design/모아요.png">
+																			<source src="/static/assets/img/design/모아요.mp4" type="video/mp4">
+																		</video>
+																	</figure> 
+																</div> 
+															</div> 
+														</a> 
+														<div class="pgi-caption">
+															<div class="pgi-caption-inner">
+																<div class="pgi-title">모아요 소개영상</div>
+																<div class="pgi-categories-wrap">
+																	<div class="pgi-category">동영상 제작</div>
+																</div> 
+															</div> 
+														</div> 
+													</div>
+													
+												</div> 
+											</div>
+
+											<div class="tt-grid-item isotope-item">
+												<div class="ttgr-item-inner">
+
+													<div class="portfolio-grid-item">
+
+														<a href="/static/assets/img/design/디블럭_full.png" target="_blank" class="pgi-image-wrap" data-exthumbnail="/static/assets/img/design/디블럭_full.png" data-cursor="View">
+															<div class="pgi-image-holder cover-opacity-2">
+																<div class="pgi-image-inner anim-zoomin">
+																	<figure class="pgi-image ttgr-height">
+																		<img class="tt-lazy" src="/static/assets/img/design/디블럭.png" data-src="/static/assets/img/design/디블럭.png" alt="image" style="object-fit: contain;">
+																	</figure> 
+																</div> 
+															</div>
+														</a>
+														<div class="pgi-caption">
+															<div class="pgi-caption-inner">
+																<div class="pgi-title">디블럭 상세페이지</div>
+																<div class="pgi-categories-wrap">
+																	<div class="pgi-category">이미지 제작</div>
+																</div> 
+															</div> 
+														</div> 
+													</div>
+													
+												</div> 
+											</div>
+
+											<div class="tt-grid-item isotope-item">
+												<div class="ttgr-item-inner">
+
+													<div class="portfolio-grid-item anim-parallax">
+														<a href="/static/assets/img/design/퇴근후먹태_full.png" target="_blank" class="pgi-image-wrap" data-cursor="View">
+															<div class="pgi-image-holder cover-opacity-2">
+																<div class="pgi-image-inner anim-zoomin">
+																	<figure class="pgi-image ttgr-height">
+																		<img src="/static/assets/img/design/퇴근후먹태.png" alt="image">
+																	</figure> 
+																</div> 
+															</div> 
+														</a> 
+														<div class="pgi-caption">
+															<div class="pgi-caption-inner">
+																<div class="pgi-title">퇴근 후 먹태 상세페이지</div>
+																<div class="pgi-categories-wrap">
+																	<div class="pgi-category">이미지 제작</div>
+																</div> 
+															</div> 
+														</div> 
+													</div>
+													
+												</div> 
+											</div>
+
+											<div class="tt-grid-item isotope-item">
+												<div class="ttgr-item-inner">
+
+													<div class="portfolio-grid-item">
+														<a href="/static/assets/img/design/케이돌봄2.mp4" target="_blank" class="pgi-image-wrap" data-cursor="View">
+															<div class="pgi-image-holder cover-opacity-2">
+																<div class="pgi-image-inner anim-zoomin">
+																	<figure class="pgi-video-wrap ttgr-height">
+																		<video class="pgi-video" loop muted preload="metadata" poster="/static/assets/img/design/케이돌봄2.png">
+																			<source src="/static/assets/img/design/케이돌봄2.mp4" type="video/mp4">
+																		</video>
+																	</figure> 
+																</div> 
+															</div> 
+														</a> 
+														<div class="pgi-caption">
+															<div class="pgi-caption-inner">
+																<div class="pgi-title">K-돌봄 소개영상</div>
+																<div class="pgi-categories-wrap">
+																	<div class="pgi-category">동영상 제작</div>
+																</div> 
+															</div> 
+														</div> 
+													</div>
+													
+												</div> 
+											</div>
+
+										</div>
+
+									</div>
+
+								</div>
+
+							</div> 
+						</div>
+						<!-- //디자인 -->
+						
+						<!-- 기획 -->
+						<div class="tt-section">
+							<div class="tt-section-inner tt-wrap">
+								
+								<div class="tt-heading tt-heading-lg tt-heading-center margin-bottom-5-p anim-fadeinup">
+									<h2 class="tt-heading-title">기획</h2>
+								</div>
+
+								<div id="blog-list" class="bli-image-cropped bli-compact">
+
+									<article class="blog-list-item">
+								
+										<div class="bli-image-wrap">
+											<figure class="bli-image">
+												<img src="/static/assets/img/portfolio/hyundai.png" data-src="/static/assets/img/portfolio/hyundai.png" class="tt-lazy anim-zoomin" alt="Image">
+											</figure>
+										</div>
+										
+										<div class="bli-info">
+											<div class="bli-title">현대 네비게이션 기획서 수정 보완</div>
+											<div class="bli-meta"> 
+												<span class="published">24.12~25.08</span>
+											</div>
+											<div class="bli-desc">
+												현대 오토에버 기획자,디자이너와 협업하여 피그마,엑셀,PPT를 활용해<br>
+												표준형,고급형,ccNC,ccIC설계서 등 여러 버전의 설계서,
+												와이어프레임을 검수하고 수정 및 보완 작업을 진행											
+												</div>
+										</div>
+
+									</article>
+
+									<article class="blog-list-item">
+								
+										<div class="bli-image-wrap">
+											<figure class="bli-image">
+												<img src="/static/assets/img/portfolio/모아요앱.png" data-src="/static/assets/img/portfolio/모아요앱.png" class="tt-lazy anim-zoomin" alt="Image">
+											</figure>
+										</div>
+
+										<div class="bli-info">
+											<div class="bli-title">모아요 APP UI 기획</div>
+											<div class="bli-meta"> 
+												<span class="published">21.08~21.09</span>
+											</div>
+											<div class="bli-desc"> 
+												외주사와 외부 미팅 후 와이어프레임 제작,관리자 페이지 제작,Html5 WebApp으로 진행
+											</div>
+										</div>
+
+									</article>
+
+									<article class="blog-list-item">
+								
+										<div class="bli-image-wrap">
+											<a href="/static/assets/img/portfolio/디블럭_full.png" target="_blank" data-cursor="View">
+												<figure class="bli-image">
+													<img src="/static/assets/img/portfolio/디블럭.png" data-src="/static/assets/img/portfolio/디블럭.png" class="tt-lazy anim-zoomin" alt="Image">
+												</figure>
+											</a>
+										</div>
+										
+										<div class="bli-info">
+											<div class="bli-title">디블럭 APP UI 기획</div>
+											<div class="bli-meta"> 
+												<span class="published">21.10</span>
+											</div>
+											<div class="bli-desc">
+											화면 설계 및 서비스기획 와이어프레임 제작								
+											</div>
+										</div>
+
+									</article>
+
+								</div>
+							
+							</div>
+						</div>
+						<!-- //기획 -->
+						
+						<!-- 교육 -->
+						<div class="tt-section padding-bottom-xlg-150 padding-left-sm-3-p padding-right-sm-3-p">
+							<div class="tt-section-inner tt-wrap max-width-1100">
+
+								<div class="tt-heading tt-heading-lg tt-heading-center margin-bottom-5-p anim-fadeinup">
+									<h2 class="tt-heading-title">교육</h2>
+								</div>
+							
+								<div class="tt-accordion tt-ac-xlg tt-ac-borders">
+									<div class="tt-accordion-item anim-fadeinup">
+										<div class="tt-accordion-heading">
+											<div class="tt-ac-head-title">데이터기반 홈IOT 서비스 개발실무자 양성과정</div>
+											<div class="tt-accordion-subtext">한국 스마트 홈 산업협회/주경야독<br><p>2020. 09 ~ 2020. 12</p></div>
+											<div class="tt-accordion-caret-wrap">
+												<div class="tt-accordion-caret magnetic-item"></div>
+											</div>
+										</div> 
+										<div class="tt-accordion-content max-width-800">
+											<p>Eclipse로 Java, jsp, html, css를 통해 "화해(화장품을 해석하다)"라는 팀 프로젝트를 진행했습니다. 코로나 시대가 도래해 마스크를 장시간 착용해 피부고민 문제가 생긴 사람들이 증가한 것에서 문제점을 착안해 피부관리 화장품 성분 분석 및 맞춤 추천 웹사이트를 개발했습니다. 그 중 로그인 기능을 담당으로 로그인, 로그아웃, 회원가입, 회원탈퇴, 회원정보수정 등을 다뤘으며 html 능력, 자바 스크립트로 함수를 만드는 능력, 아이디 중복 확인을 할 때 DB에 중복된 데이터가 있는지 검사하는 SQL 문 작성 능력이 향상했습니다.</p>
+										</div> 
+									</div>
+
+									<div class="tt-accordion-item anim-fadeinup">
+										<div class="tt-accordion-heading">
+											<div class="tt-ac-head-title">프레임워크 기반 자바 웹 개발자 양성과정</div>
+											<div class="tt-accordion-subtext">고용노동부/대구대학교 산학협력단<br><p>2020. 04 ~ 2020. 08</p></div>
+											<div class="tt-accordion-caret-wrap">
+												<div class="tt-accordion-caret magnetic-item"></div>
+											</div>
+										</div> 
+										<div class="tt-accordion-content max-width-800">
+											<p>Eclipse로 Java, jsp, html, css를 통해 "Share Recipe"라는 요리 사이트의 검색 기능을 담당했습니다. 프로젝트를 통해 팀원들을 선도하고 이견조율을 하는 능력, 검색 기능구현을 위해 DB의 SQL 문 작성 능력, 검색 필터 기능을 구성하기 위해 html 능력이 향상했습니다.</p>
+										</div>
+									</div>
+
+								</div>
+
+							</div> 
+						</div>
+						<!-- //교육 -->
+
+					</div>
+					<!-- 페이지 콘텐츠 -->
+
+					<!-- 페이지 푸터 -->
+					<footer id="tt-footer">
+						<div class="tt-footer-inner">
+
+							<div class="footer-col tt-align-center-left">
+								<div class="footer-col-inner">
+
+									<div class="tt-btn tt-btn-link">
+										<a href="#" class="scroll-to-top" data-hover="Top">Top</a>
+									</div>
+
+								</div> 
+							</div>
+
+							<div class="footer-col tt-align-center order-m-last">
+								<div class="footer-col-inner">
+
+									<div class="tt-copyright">ⓒ 2026. parkyejin All rights reserved.</div>
+
+								</div> 
+							</div>
+
+						</div> 
+					</footer>
+					<!-- //페이지 푸터 -->
+
+				</div>
+				<!-- //콘텐츠 웹 -->
+
+			</div>
+			<!-- //스크롤 컨테이너 -->
+
+		</main>
+
+		<!-- Core JS -->
+		<script src="/static/assets/vendor/jquery/jquery.min.js"></script> <!-- jquery JS (https://jquery.com) -->
+
+		<!-- Libs and Plugins JS -->
+		<script src="/static/assets/vendor/gsap/gsap.min.js"></script> <!-- GSAP JS (https://greensock.com/gsap/) -->
+		<script src="/static/assets/vendor/gsap/ScrollToPlugin.min.js"></script> <!-- GSAP ScrollToPlugin JS (https://greensock.com/scrolltoplugin/) -->
+		<script src="/static/assets/vendor/gsap/ScrollTrigger.min.js"></script> <!-- GSAP ScrollTrigger JS (https://greensock.com/scrolltrigger/) -->
+
+		<script src="/static/assets/vendor/smooth-scrollbar.js"></script> <!-- Smooth Scrollbar JS (https://github.com/idiotWu/smooth-scrollbar/) -->
+		<script src="/static/assets/vendor/swiper/js/swiper-bundle.min.js"></script> <!-- Swiper JS (https://swiperjs.com/) -->
+		<script src="/static/assets/vendor/isotope/imagesloaded.pkgd.min.js"></script> <!-- imagesloaded JS (more info: https://imagesloaded.desandro.com/) -->
+		<script src="/static/assets/vendor/isotope/isotope.pkgd.min.js"></script> <!-- Isotope JS (http://isotope.metafizzy.co) -->
+		<script src="/static/assets/vendor/isotope/packery-mode.pkgd.min.js"></script> <!-- Isotope Packery Mode JS (https://isotope.metafizzy.co/layout-modes/packery.html) -->
+		<script src="/static/assets/vendor/lightgallery/js/lightgallery-all.min.js"></script> <!-- lightGallery Plugins JS (http://sachinchoolur.github.io/lightGallery) -->
+		<script src="/static/assets/vendor/jquery.mousewheel.min.js"></script> <!-- A jQuery plugin that adds cross browser mouse wheel support (https://github.com/jquery/jquery-mousewheel) -->
+
+		<!-- Theme master JS -->
+		<script src="/static/assets/js/theme.js"></script>
+
+	</body>
+
 </html>

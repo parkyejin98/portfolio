@@ -211,31 +211,9 @@ body {
 
 /* Secondary font
 ================== */
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6,
-#ball,
-.tt-main-menu,
-.ph-caption-title-ghost,
-.ph-caption-subtitle,
-.scroll-down-circle,
-.made-with-love,
-.tt-ol-menu-toggle-btn-text,
-.tt-m-menu-toggle-btn-text,
-.tt-ol-menu-list,
 .tt-heading-title,
-.social-buttons,
-.footer-social,
-.tt-ps-nav-pagination,
-.tt-cc-pagination,
-.pli-counter,
-.ttgr-cat-trigger-wrap,
-.ttgr-cat-list,
-.portfolio-interactive-item,
-.project-info-list,
-.tt-pn-link,
-.tt-pn-subtitle,
-.ph-share-ghost,
-.tt-pagination,
 .tt-scrolling-text,
+.tt-pci-title,
 #blog-list.bli-compact .bli-info::before,
 .blog-interactive-item::before {
     font-family: 'PyeongchangPeace';

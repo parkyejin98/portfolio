@@ -88,7 +88,7 @@ body {
 }
 
 p { 
-	margin: 0 0 30px; 
+	margin: 0; 
 }
 
 a {
@@ -3541,16 +3541,11 @@ video.pgi-video {
 	overflow: hidden;
 	white-space: nowrap;
 	text-overflow: ellipsis;
-	font-size: calc(19px + 1.5vw);
+	font-size: 24px;
 	font-weight: bold;
 	font-weight: 600;
 	color: #FFF;
 	line-height: 1.5;
-}
-@media (max-width: 767px) {
-	.pgi-title {
-		font-size: calc(19px + 1.5vw);
-	}
 }
 
 /* Portfolio grid item title hover (no effect if "pgi-cap-inside" enabled!) */
@@ -3580,7 +3575,7 @@ video.pgi-video {
 .pgi-category {
 	position: relative;
 	display: inline-block;
-	font-size: calc(13px + 0.1vw);
+	font-size: 14px;
 	color: #FFF;
 	opacity: .5;
 }
@@ -6752,13 +6747,8 @@ body:not(.tt-magic-cursor) .social-buttons > ul > li a:hover {
 }
 .tt-ac-head-title {
 	margin: 0;
-	font-size: 32px;
+	font-size: 24px;
 	line-height: 1.2;
-}
-@media (max-width: 991px) {
-	.tt-ac-head-title {
-		font-size: 28px;
-	}
 }
 
 /* Accordion heading subtext */
@@ -8156,7 +8146,7 @@ body.is-mobile.tt-sliding-sidebar-open .tt-sliding-sidebar-trigger .tt-ss-icon-c
 		font-size: 24px;
 	}
 	#blog-list.bli-compact .bli-desc {
-		margin-top: 10px;
+		margin-top: 30px;
 	}
 	#blog-list.bli-compact .bli-read-more {
 		margin: 20px 0 0 0;

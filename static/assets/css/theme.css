@@ -8073,7 +8073,7 @@ body.is-mobile.tt-sliding-sidebar-open .tt-sliding-sidebar-trigger .tt-ss-icon-c
 
 .bli-title {
 	/* margin-bottom: 20px; */
-	font-size: clamp(28px, 3vw, 42px);
+	font-size: 24px;
 	font-weight: bold;
 	font-weight: 600;
 	color: #FFF;

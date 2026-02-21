@@ -1,70 +1,3 @@
-/* --------------------------------------------------------------------
-* Template Master Stylesheet
-* 
-* Template:		Tank - Creative Portfolio Showcase HTML Website Template
-* Author:		Themetorium
-* URL:			https://themetorium.net/
-*
-* Body Font (global): 'Poppins', sans-serif;
-* Secondary Font: 'Noto Serif JP', serif;
--------------------------------------------------------------------- */
-
-
-/* Table of Content
-====================
-* General
-* Fonts
-* Page transitions
-* Page boxed layout
-* Body inner
-* Content wrap
-* Page content
-* Smooth Scrollbar
-* Magic cursor
-* tt-Section
-* Headings
-* tt-Headings (custom headings)
-* Header
-* Classic menu
-* Overlay menu
-* Page header
-* tt-Grid
-* Portfolio grid
-* Portfolio List
-* Portfolio interactive
-* Portfolio slider (full screen)
-* Portfolio carousel
-* tt-Gallery
-* Lightgallery (lightbox plugin)
-* Page nav
-* Logo wall
-* tt-Image
-* Content carousel
-* Testimonials slider
-* Buttons
-* Social buttons
-* Accordion
-* Magnetic wrap
-* Blockquote
-* Figure
-* Forms
-* Contact info
-* Background video
-* Background noise
-* tt-Embed
-* Scrolling text
-* Pagination (tt-pagination)
-* Sidebar (classic)
-* Sliding sidebar
-* Sidebar widgets
-* Blog list
-* Blog interactive
-* Blog single post
-* Footer
-*/ 
-
-
-
 /* ------------------------------------------------------------- *
  * General
 /* ------------------------------------------------------------- */
@@ -496,7 +429,7 @@ body.tt-magic-cursor #magic-cursor {
 .tt-section-background{
 	background-image: url("/static/assets/img/bgimg.jpeg");
 	background-repeat:no-repeat;
-	background-size : contain;
+	background-size : cover;
 }
 
 /* tt-section background image 
@@ -1644,8 +1577,8 @@ body:not(.tt-boxed) .page-header-inner,
 }
 @media (max-width: 1920px) {
 	.page-header-inner {
-		padding-top: 250px;
-		padding-bottom: 140px;
+		padding-top: 150px;
+		padding-bottom: 150px;
 	}
 	body.ph-image-on #page-header:not(.project-info-list-on) .page-header-inner {
 		padding-top: 300px;
@@ -1680,17 +1613,18 @@ body:not(.tt-boxed) .page-header-inner,
 	.page-header-inner,
 	body:not(.ph-image-on) #page-header .page-header-inner,
 	body.ph-image-on.ph-bg-image-on #page-header:not(.project-info-list-on) .page-header-inner {
-		padding-top: 200px;
-		padding-bottom: 80px;
+		padding-top: 100px;
+		padding-bottom: 100px;
 	}
 }
 @media (max-width: 540px) {
-	body.ph-image-on #page-header:not(.project-info-list-on) .page-header-inner {
-		padding-top: 240px;
-		padding-bottom: 40vw;
+	.page-header-inner,
+	body:not(.ph-image-on) #page-header .page-header-inner,
+	body.ph-image-on.ph-bg-image-on #page-header:not(.project-info-list-on) .page-header-inner {
+		padding-top: 30px;
+		padding-bottom: 30px;
 	}
 }
-
 
 /* Page header image 
 ===================== */

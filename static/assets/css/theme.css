@@ -211,7 +211,7 @@ body {
 
 /* Secondary font
 ================== */
-.tt-heading-title,
+/* .tt-heading-title, */
 .tt-scrolling-text,
 .tt-pci-title,
 #blog-list.bli-compact .bli-info::before,
@@ -493,6 +493,11 @@ body.tt-magic-cursor #magic-cursor {
 	}
 }
 
+.tt-section-background{
+	background-image: url("/static/assets/img/bgimg.jpeg");
+	background-repeat:no-repeat;
+	background-size : contain;
+}
 
 /* tt-section background image 
 =============================== */
@@ -2446,10 +2451,6 @@ body.ph-share-open {
 		display: flex;
 		align-items: center;
 		min-height: 100vh;
-	}
-	#page-header.ph-full .page-header-inner {
-		padding-top: 5% !important;
-		padding-bottom: 5% !important;
 	}
 	#page-header.ph-full .ph-image {
 		position: absolute;

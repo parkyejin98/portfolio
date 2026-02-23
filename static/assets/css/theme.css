@@ -8026,7 +8026,7 @@ body.is-mobile.tt-sliding-sidebar-open .tt-sliding-sidebar-trigger .tt-ss-icon-c
 @media (min-width: 1025px) {
 	#blog-list.bli-compact .blog-list-item {
 		display: flex;
-		margin-bottom: 50px;
+		margin-bottom: 60px;
 	}
 	#blog-list.bli-compact .bli-image-wrap {
 		-ms-flex: 0 0 30%;
@@ -8072,7 +8072,7 @@ body.is-mobile.tt-sliding-sidebar-open .tt-sliding-sidebar-trigger .tt-ss-icon-c
 		counter-increment: bli-compact-counter;
 		content: "" counter(bli-compact-counter, decimal-leading-zero);
 		top: -20%;
-		left: 30%;
+		left: 60%;
 		line-height: 1;
 		font-size: 200px;
 		font-weight: normal;

@@ -8026,16 +8026,16 @@ body.is-mobile.tt-sliding-sidebar-open .tt-sliding-sidebar-trigger .tt-ss-icon-c
 @media (min-width: 1025px) {
 	#blog-list.bli-compact .blog-list-item {
 		display: flex;
-		margin-bottom: 100px;
+		margin-bottom: 50px;
 	}
 	#blog-list.bli-compact .bli-image-wrap {
 		-ms-flex: 0 0 30%;
 		flex: 0 0 30%;
 		max-width: 30%;
 	}
-	#blog-list.bli-compact .bli-image { 
+	/* #blog-list.bli-compact .bli-image { 
 		padding-bottom: 0;
-	}
+	} */
 	#blog-list.bli-compact .bli-image,
 	#blog-list.bli-compact .anim-image-parallax-wrap {
 		height: 100%;

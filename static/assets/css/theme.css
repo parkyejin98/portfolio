@@ -8026,7 +8026,7 @@ body.is-mobile.tt-sliding-sidebar-open .tt-sliding-sidebar-trigger .tt-ss-icon-c
 @media (min-width: 1025px) {
 	#blog-list.bli-compact .blog-list-item {
 		display: flex;
-		margin-bottom: 60px;
+		margin-bottom: 100px;
 	}
 	#blog-list.bli-compact .bli-image-wrap {
 		-ms-flex: 0 0 30%;
